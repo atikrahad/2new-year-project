@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
 header{
     background-image: url("../images/banner/banner1.png");
@@ -34,6 +35,7 @@ nav ul li a{
     margin: 140px 230px 14px 750px;
     text-align: right;
     color: #151414;
+    font-weight: 700;
 }
 .banner-description{
     padding: 10px 230px 25px 780px;
@@ -52,4 +54,37 @@ nav ul li a{
     background-color: #F15B22;
     color: rgba(255, 255, 255, 0.877);
     border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px 40px 150px;
+}
+
+.about-content{
+    padding:  0 40px;
+}
+.title{
+    margin: 15px 0;
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+}
+.about-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 20px 0px;
+    line-height: 26px;
+}
+.about-content ul{
+    margin-left: 20px;
+}
+.about-content ul li{
+    list-style:url("../images/check\ 1.svg");
+    margin: 0 0 10px 10px ;
+}
+.about-pic img{
+    width: 550px;
 }
