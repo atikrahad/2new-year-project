@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family:  'Open Sans', sans-serif;
+}
 header{
     background-image: url("../images/banner/banner1.png");
-    height: 800px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav ul{
     display: flex;
@@ -23,4 +28,28 @@ nav ul li a{
     font-weight: 600;
     text-transform: uppercase;
     color: rgba(48, 45, 45, 0.808);
+}
+.banner-title{
+    font-size: 50px;
+    margin: 140px 230px 14px 750px;
+    text-align: right;
+    color: #151414;
+}
+.banner-description{
+    padding: 10px 230px 25px 780px;
+    color: #444343;
+    font-weight: 400;
+    text-align: right;
+}
+.banner-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+}
+.banner-button a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #F15B22;
+    color: rgba(255, 255, 255, 0.877);
+    border-radius: 5px;
 }
